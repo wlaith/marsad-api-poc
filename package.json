@@ -10,7 +10,7 @@
     "test": "node --env-file=.env --import tsx --test test/*.test.ts"
   },
   "keywords": [],
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "amqplib": "^2.2.0",
     "fastify": "^5.12.7",
